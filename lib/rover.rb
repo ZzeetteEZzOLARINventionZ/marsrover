@@ -17,11 +17,11 @@ class Rover
         when 'M'
           old_x, old_y = @navigator.pos_x, @navigator.pos_y
           @navigator.move
-            if checkplateau
+          if checkplateau
               puts "Step forward from (#{old_x},#{old_y}) to (#{@navigator.pos_x}, #{@navigator.pos_y})" if @visual
             else
               puts "Out of the plateau when Step forward from (#{old_x},#{old_y}) to (#{@navigator.pos_x}, #{@navigator.pos_y})" if @visual
-            end
+          end
       end
     end
   end

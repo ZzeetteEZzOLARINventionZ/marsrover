@@ -3,6 +3,7 @@ require_relative 'lib/direction'
 require_relative 'lib/navigator'
 require_relative 'lib/rover'
 # Plateu Singleton.
+=begin
 plateau = Plateau.new('0,0','2,2')
 rover = Rover.new('1 2 N',plateau)
 rover.visual = true
@@ -12,4 +13,13 @@ rover = Rover.new('3 3 E',plateau)
 rover.visual = true
 rover.command('MMRMMRMRRM')
 puts rover.inspect
-
+=end
+pla = STDIN.gets().split(' ')
+pla = "#{pla[0]},#{pla[1]}"
+plateau = Plateau.new('0,0',pla)
+pos = STDIN.gets()
+rover = Rover.new(pos,plateau)
+rover.visual = false
+com = STDIN.gets()
+rover.command(com)
+puts rover.inspect
