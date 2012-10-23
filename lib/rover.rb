@@ -8,7 +8,7 @@ class Rover
   def inspect
     {:x => @navigator.pos_x, :y => @navigator.pos_y, :d => @navigator.direction.to_enum}
   end
-  def command(string)
+  def command(string) #read and do the command like"LMLMLMLMM"
     string.split(//).each do |c|
       case c
         when /(L|R)/
@@ -19,17 +19,16 @@ class Rover
           @navigator.move
           if checkplateau
               puts "Step forward from (#{old_x},#{old_y}) to (#{@navigator.pos_x}, #{@navigator.pos_y})" if @visual
-            else
-              puts "Out of the plateau when Step forward from (#{old_x},#{old_y}) to (#{@navigator.pos_x}, #{@navigator.pos_y})" if @visual
           end
       end
     end
   end
-  def checkplateau
+  def checkplateau #ensure the rover in plateau
     if @plateau.size[0][0]<=@navigator.pos_x && @plateau.size[0][1]<=@navigator.pos_y &&
-      @plateau.size[1][0]>=@navigator.pos_x && @plateau.size[1][1]>=@navigator.pos_x
+      @plateau.size[1][0]>=@navigator.pos_x && @plateau.size[1][1]>=@navigator.pos_y
       return true
     else
+      raise "Out of plateau when Step forward to (#{@navigator.pos_x}, #{@navigator.pos_y})" #throw a OopException
       return false
     end
   end
