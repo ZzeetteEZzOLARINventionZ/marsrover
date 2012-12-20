@@ -26,20 +26,24 @@ public class Rover {
         } else if (command == Command.LEFT) {
             currentDirection.setDegree((currentDirection.getDegree() + 270) % 360);
         } else if (command == Command.MOVE) {
-            switch (currentDirection.getDegree() % 360) {
-                case 0:
-                    currentCoords.setY(currentCoords.getY() + 1);
-                    break;
-                case 90:
-                    currentCoords.setX(currentCoords.getX() + 1);
-                    break;
-                case 180:
-                    currentCoords.setY(currentCoords.getY() - 1);
-                    break;
-                case 270:
-                    currentCoords.setX(currentCoords.getX() - 1);
-                    break;
-            }
+            this.moveForward(1);
+        }
+    }
+
+    private void moveForward(int forward) {
+        switch (currentDirection.getDegree() % 360) {
+            case 0:
+                currentCoords.setY(currentCoords.getY() + forward);
+                break;
+            case 90:
+                currentCoords.setX(currentCoords.getX() + forward);
+                break;
+            case 180:
+                currentCoords.setY(currentCoords.getY() - forward);
+                break;
+            case 270:
+                currentCoords.setX(currentCoords.getX() - forward);
+                break;
         }
     }
 

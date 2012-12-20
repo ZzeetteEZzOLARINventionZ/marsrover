@@ -40,13 +40,13 @@ public class DirectionTest {
     @Test
     public void testSetCompass() throws Exception {
         direction.setCompass("North");
-        assert direction.getDegree()==0;
+        assert direction.getDegree() == 0;
         direction.setCompass("East");
-        assert direction.getDegree()==90;
+        assert direction.getDegree() == 90;
         direction.setCompass("South");
-        assert direction.getDegree()==180;
+        assert direction.getDegree() == 180;
         direction.setCompass("West");
-        assert direction.getDegree()==270;
+        assert direction.getDegree() == 270;
     }
 
     @Test
