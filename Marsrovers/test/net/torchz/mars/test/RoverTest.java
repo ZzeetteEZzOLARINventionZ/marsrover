@@ -1,9 +1,9 @@
 package net.torchz.mars.test;
 
-import net.torchz.mars.Command;
-import net.torchz.mars.Coords;
-import net.torchz.mars.Direction;
-import net.torchz.mars.Rover;
+import net.torchz.mars.util.Command;
+import net.torchz.mars.util.Coords;
+import net.torchz.mars.util.Direction;
+import net.torchz.mars.entity.Rover;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

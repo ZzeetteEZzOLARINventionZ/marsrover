@@ -1,4 +1,4 @@
-package net.torchz.mars;
+package net.torchz.mars.util;
 
 /**
  * Created with IntelliJ IDEA.

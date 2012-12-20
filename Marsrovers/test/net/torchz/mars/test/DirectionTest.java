@@ -1,6 +1,6 @@
 package net.torchz.mars.test;
 
-import net.torchz.mars.Direction;
+import net.torchz.mars.util.Direction;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

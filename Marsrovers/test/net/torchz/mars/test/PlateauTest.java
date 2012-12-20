@@ -1,6 +1,6 @@
 package net.torchz.mars.test;
 
-import net.torchz.mars.Plateau;
+import net.torchz.mars.entity.Plateau;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -2,26 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef4af07-19b2-4f07-b454-c2ee73244889" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Rover.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Coords.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Coords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Plateau.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Plateau.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java" />
+      <change type="DELETED" beforePath="C:\Users\tcz\Documents\GitHub\marsrover\Marsrovers\lib\src\net\torchz\mars\Navigator.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\tcz\Documents\GitHub\marsrover\Marsrovers\lib\src\net\torchz\mars\Command.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java" />
+      <change type="MOVED" beforePath="C:\Users\tcz\Documents\GitHub\marsrover\Marsrovers\lib\src\net\torchz\mars\Coords.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java" />
+      <change type="MOVED" beforePath="C:\Users\tcz\Documents\GitHub\marsrover\Marsrovers\lib\src\net\torchz\mars\Direction.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Direction.java" />
+      <change type="MOVED" beforePath="C:\Users\tcz\Documents\GitHub\marsrover\Marsrovers\lib\src\net\torchz\mars\Plateau.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Plateau.java" />
+      <change type="MOVED" beforePath="C:\Users\tcz\Documents\GitHub\marsrover\Marsrovers\lib\src\net\torchz\mars\Rover.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java" afterPath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java" afterPath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" afterPath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="marsrover.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355976815785" ignored="false" />
+    <file path="/Dummy.txt" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355976852946" ignored="false" />
     <file path="/Direction.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355886691071" ignored="false" />
-    <file path="/Navigator.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355888651364" ignored="false" />
+    <file path="/Navigator.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355978362548" ignored="false" />
     <file path="/fragment.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355974742702" ignored="false" />
     <file path="/Plateau.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355892407299" ignored="false" />
     <file path="/DirectionTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355887523417" ignored="false" />
     <file path="/Coords.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355892344918" ignored="false" />
     <file path="/PlateauTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355894336010" ignored="false" />
-    <file path="/Rover.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355976620625" ignored="false" />
+    <file path="/Rover.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355978060589" ignored="false" />
     <file path="/Command.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355973247450" ignored="false" />
     <file path="/CommandCode.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355972345627" ignored="false" />
     <file path="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/CommandCode.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355972463609" ignored="false" />
@@ -86,54 +89,47 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Coords.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Coords.java">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+            <state line="19" column="4" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Rover.java">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+            <state line="56" column="0" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Command.java">
+      <file leaf-file-name="Navigator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0974359">
-              <folding />
+            <state line="12" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.34102565">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java">
+      <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="8" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlateauTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+            <state line="10" column="36" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Direction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Direction.java">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="4" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
+            <state line="25" column="20" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Marsrovers/src/lib/net/torchz/Navigator.java" />
         <option value="$PROJECT_DIR$/Marsrovers/src/lib/net/torchz/mars/Navigator.java" />
         <option value="$PROJECT_DIR$/Marsrovers/src/lib/net/torchz/Plateau.java" />
         <option value="$PROJECT_DIR$/Marsrovers/src/lib/net/torchz/mars/Plateau.java" />
@@ -165,7 +160,6 @@
         <option value="$PROJECT_DIR$/Marsrovers/src/test/net/torchz/mars/DirectionTest.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Direction.java" />
         <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java" />
-        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Navigator.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/CommandCode.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Command.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Plateau.java" />
@@ -173,6 +167,8 @@
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Coords.java" />
         <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Rover.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Navigator.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java" />
       </list>
     </option>
   </component>
@@ -289,6 +285,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsrover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Marsrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsrover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Marsrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,6 +646,11 @@
       <created>1355650570757</created>
       <updated>1355650570757</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rovers added">
+      <created>1355976859617</created>
+      <updated>1355976859617</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -618,22 +675,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49695587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.4936306" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974359" sideWeight="0.49044585" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.49761146" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5007962" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49695587" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.4968153" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.4968153" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4939117" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2611465" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2611465" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.47213376" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -710,7 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Navigator.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
       </provider>
@@ -718,7 +775,9 @@
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -744,14 +803,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Navigator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="0.43846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Plateau.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Plateau.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="59" selection-start="420" selection-end="420" vertical-scroll-proportion="0.43846154">
           <folding />
@@ -765,45 +817,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Coords.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="4" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
+        <state line="19" column="4" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="23" column="39" selection-start="493" selection-end="493" vertical-scroll-proportion="0.24358974">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+        <state line="25" column="29" selection-start="599" selection-end="599" vertical-scroll-proportion="0.925641">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Rover.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+        <state line="25" column="20" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Command.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0974359">
+        <state line="10" column="36" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.34102565">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
