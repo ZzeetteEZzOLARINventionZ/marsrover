@@ -17,7 +17,7 @@ public class PlateauTest {
 
     @Before
     public void setUp() throws Exception {
-        plateau = new Plateau("1,2", "3,4");
+        plateau = new Plateau("1 2", "3 4");
     }
 
     @After
