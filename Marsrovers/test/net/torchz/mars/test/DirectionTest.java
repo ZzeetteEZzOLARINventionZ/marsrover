@@ -27,7 +27,6 @@ public class DirectionTest {
 
     @Test
     public void testSetDegree() throws Exception {
-        setUp();
         direction.setDegree(0);
         assert direction.getCompass().equals("North");
         direction.setDegree(90);
@@ -40,7 +39,6 @@ public class DirectionTest {
 
     @Test
     public void testSetCompass() throws Exception {
-        setUp();
         direction.setCompass("North");
         assert direction.getDegree()==0;
         direction.setCompass("East");
@@ -53,13 +51,11 @@ public class DirectionTest {
 
     @Test
     public void testGetCompass() throws Exception {
-        setUp();
         assert direction.getCompass().equals("South");
     }
 
     @Test
     public void testGetDegree() throws Exception {
-        setUp();
         assert direction.getDegree() == 180;
     }
 }

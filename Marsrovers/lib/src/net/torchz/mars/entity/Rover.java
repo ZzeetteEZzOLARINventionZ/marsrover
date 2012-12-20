@@ -51,10 +51,10 @@ public class Rover {
         return currentDirection;
     }
 
-    private boolean isInPlateau(Plateau plateau) {
-        return this.currentCoords.getX() >= plateau.getCoords_bottom_left().getX() ||
-                this.currentCoords.getY() >= plateau.getCoords_bottom_left().getY() ||
-                this.currentCoords.getX() <= plateau.getCoords_top_right().getX() ||
+    public boolean isInPlateau(Plateau plateau) {
+        return this.currentCoords.getX() >= plateau.getCoords_bottom_left().getX() &&
+                this.currentCoords.getY() >= plateau.getCoords_bottom_left().getY() &&
+                this.currentCoords.getX() <= plateau.getCoords_top_right().getX() &&
                 this.currentCoords.getY() <= plateau.getCoords_top_right().getY();
     }
 }

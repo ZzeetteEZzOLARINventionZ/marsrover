@@ -66,4 +66,11 @@ public class Direction {
         return degree;
     }
 
+    @Override
+    public String toString() {
+        return "Direction{" +
+                "degree=" + degree +
+                ", compass='" + compass + '\'' +
+                '}';
+    }
 }

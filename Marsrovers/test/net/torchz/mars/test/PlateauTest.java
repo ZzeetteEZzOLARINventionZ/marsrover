@@ -17,7 +17,7 @@ public class PlateauTest {
 
     @Before
     public void setUp() throws Exception {
-        plateau = new Plateau("1 2", "3 4");
+        plateau = new Plateau("1,2", "3,4");
     }
 
     @After
@@ -27,14 +27,12 @@ public class PlateauTest {
 
     @Test
     public void testGetCoords_bottom_left() throws Exception {
-        setUp();
         assert plateau.getCoords_bottom_left().getX() == 1;
         assert plateau.getCoords_bottom_left().getY() == 2;
     }
 
     @Test
     public void testGetCoords_top_right() throws Exception {
-        setUp();
         assert plateau.getCoords_top_right().getX() == 3;
         assert plateau.getCoords_top_right().getY() == 4;
     }

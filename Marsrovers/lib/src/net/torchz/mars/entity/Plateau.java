@@ -14,8 +14,8 @@ public class Plateau {
     private Coords coords_top_right;
 
     public Plateau(String bottom_left, String top_right) {
-        coords_bottom_left = new Coords(bottom_left.split(" "));
-        coords_top_right = new Coords(top_right.split(" "));
+        coords_bottom_left = new Coords(bottom_left.split(","));
+        coords_top_right = new Coords(top_right.split(","));
     }
 
     public Coords getCoords_bottom_left() {
