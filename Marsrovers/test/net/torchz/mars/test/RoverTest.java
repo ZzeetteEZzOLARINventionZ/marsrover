@@ -1,10 +1,11 @@
 package net.torchz.mars.test;
 
-import net.torchz.mars.util.Command;
+import net.torchz.mars.command.LeftCommand;
+import net.torchz.mars.command.MoveCommand;
+import net.torchz.mars.command.RightCommand;
+import net.torchz.mars.entity.Rover;
 import net.torchz.mars.util.Coords;
 import net.torchz.mars.util.Direction;
-import net.torchz.mars.entity.Rover;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,41 +18,32 @@ import org.junit.Test;
  */
 public class RoverTest {
     Rover rover;
-    Command move, left, right;
 
     @Before
     public void setUp() throws Exception {
-        move = Command.MOVE;
-        left = Command.LEFT;
-        right = Command.RIGHT;
         Coords startCoords = new Coords(1, 2);
         Direction startDirection = new Direction("North");
         rover = new Rover(startCoords, startDirection);
     }
 
-    @After
-    public void tearDown() throws Exception {
-
+    @Test
+    public void testMove() throws Exception {
+        rover.movement(new MoveCommand());
+        assert rover.getCurrentDirection().getDegree() == 0 && rover.getCurrentDirection().getCompass().equals("North");
+        assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 3;
     }
 
     @Test
-    public void testMovement() throws Exception {
+    public void testLeft() throws Exception {
+        rover.movement(new LeftCommand());
+        assert rover.getCurrentDirection().getDegree() == 270 && rover.getCurrentDirection().getCompass().equals("West");
         assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 2;
-        assert rover.getCurrentDirection().getDegree() == 0 && rover.getCurrentDirection().getCompass().equals("North");
-        rover.movement(move);
-        assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 3;
-        assert rover.getCurrentDirection().getDegree() == 0 && rover.getCurrentDirection().getCompass().equals("North");
-        rover.movement(right);
-        assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 3;
+    }
+
+    @Test
+    public void testRight() throws Exception {
+        rover.movement(new RightCommand());
         assert rover.getCurrentDirection().getDegree() == 90 && rover.getCurrentDirection().getCompass().equals("East");
-        rover.movement(left);
-        assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 3;
-        assert rover.getCurrentDirection().getDegree() == 0 && rover.getCurrentDirection().getCompass().equals("North");
-        rover.movement(left);
-        assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 3;
-        assert rover.getCurrentDirection().getDegree() == 270 && rover.getCurrentDirection().getCompass().equals("West");
-        rover.movement(move);
-        assert rover.getCurrentCoords().getX() == 0 && rover.getCurrentCoords().getY() == 3;
-        assert rover.getCurrentDirection().getDegree() == 270 && rover.getCurrentDirection().getCompass().equals("West");
+        assert rover.getCurrentCoords().getX() == 1 && rover.getCurrentCoords().getY() == 2;
     }
 }

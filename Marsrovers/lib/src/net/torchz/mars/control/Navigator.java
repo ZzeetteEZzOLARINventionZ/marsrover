@@ -1,8 +1,11 @@
 package net.torchz.mars.control;
 
+import net.torchz.mars.command.ICommand;
+import net.torchz.mars.command.LeftCommand;
+import net.torchz.mars.command.MoveCommand;
+import net.torchz.mars.command.RightCommand;
 import net.torchz.mars.entity.Plateau;
 import net.torchz.mars.entity.Rover;
-import net.torchz.mars.util.Command;
 import net.torchz.mars.util.Coords;
 import net.torchz.mars.util.Direction;
 
@@ -18,16 +21,16 @@ public class Navigator {
     public Navigator(Plateau plateau, Rover rover,String commandString ) throws Exception {
 
         for (char a : commandString.toCharArray()) {
-            Command command = null;
+            ICommand command = null;
             switch (a) {
                 case 'M':
-                    command = Command.MOVE;
+                    command = new MoveCommand();
                     break;
                 case 'L':
-                    command = Command.LEFT;
+                    command = new LeftCommand();
                     break;
                 case 'R':
-                    command = Command.RIGHT;
+                    command = new RightCommand();
                     break;
             }
             rover.movement(command);

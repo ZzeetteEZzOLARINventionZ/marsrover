@@ -2,26 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef4af07-19b2-4f07-b454-c2ee73244889" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java" afterPath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/ICommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/LeftCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/RightCommand.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java" afterPath="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" afterPath="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" />
     </list>
     <ignored path="marsrover.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355983665568" ignored="false" />
-    <file path="/Direction.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355886691071" ignored="false" />
-    <file path="/Navigator.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355983071492" ignored="false" />
-    <file path="/fragment.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355982635859" ignored="false" />
-    <file path="/Plateau.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355892407299" ignored="false" />
-    <file path="/DirectionTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355887523417" ignored="false" />
-    <file path="/Coords.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355892344918" ignored="false" />
-    <file path="/PlateauTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355894336010" ignored="false" />
-    <file path="/Rover.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355984059763" ignored="false" />
-    <file path="/Command.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355973247450" ignored="false" />
-    <file path="/CommandCode.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355972345627" ignored="false" />
-    <file path="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/CommandCode.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355972463609" ignored="false" />
-    <file path="/RoverTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355976264055" ignored="false" />
     <file path="/NavigatorTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355979982315" ignored="false" />
+    <file path="/RoverTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355976264055" ignored="false" />
+    <file path="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/CommandCode.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355972463609" ignored="false" />
+    <file path="/CommandCode.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355972345627" ignored="false" />
+    <file path="/Command.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355973247450" ignored="false" />
+    <file path="/Rover.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355984059763" ignored="false" />
+    <file path="/PlateauTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355894336010" ignored="false" />
+    <file path="/Coords.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355892344918" ignored="false" />
+    <file path="/DirectionTest.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355887523417" ignored="false" />
+    <file path="/Plateau.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355892407299" ignored="false" />
+    <file path="/fragment.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355982635859" ignored="false" />
+    <file path="/Navigator.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355983071492" ignored="false" />
+    <file path="/Direction.java" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355886691071" ignored="false" />
+    <file path="/Dummy.txt" changelist="aef4af07-19b2-4f07-b454-c2ee73244889" time="1355983665568" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +43,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -46,7 +51,6 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -62,7 +66,6 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -72,6 +75,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <breakpoint_rules default_suspend_policy="SuspendAll" />
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -81,46 +86,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Navigator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlateauTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RoverTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="41" column="9" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectionTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rover.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="42" selection-start="965" selection-end="965" vertical-scroll-proportion="0.31062672">
+            <state line="28" column="12" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="38" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/MoveCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeftCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/LeftCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RightCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/RightCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/ICommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="17" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,28 +166,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plateau.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Plateau.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Plateau.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="55" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coords.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+            <state line="17" column="55" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5139092">
               <folding />
             </state>
           </provider>
@@ -170,12 +183,8 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -185,7 +194,6 @@
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Command.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Plateau.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Coords.java" />
-        <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Rover.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/Navigator.java" />
         <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java" />
@@ -193,17 +201,24 @@
         <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/NavigatorTest.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Direction.java" />
-        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java" />
         <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/MoveCommand.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/LeftCommand.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/RightCommand.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/RightCommand.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/MoveCommand.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/LeftCommand.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java" />
         <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java" />
+        <option value="$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1174" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,6 +241,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -371,21 +388,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marsrover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Marsrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="47" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="51" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="47" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="51" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="47" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="50" />
@@ -395,14 +438,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="51" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -411,45 +455,189 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="net.torchz.mars.test" />
       <recent name="net.torchz.mars" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="net.torchz.mars.command" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="net.torchz.mars.entity.MoveCommand" />
+      <recent name="net.torchz.mars.entity.LeftCommand" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="net.torchz.mars" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="net.torchz.mars" />
-      <recent name="net" />
-      <recent name="net.marsrovers.torchz" />
-      <recent name="net.torchz.marsrovers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tcz\Documents\GitHub\marsrover\test" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.torchz.mars.command" />
+      <recent name="net.torchz.mars.entity" />
+      <recent name="net.torchz.mars" />
+      <recent name="net" />
+      <recent name="net.marsrovers.torchz" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Navigator">
+  <component name="RunManager" selected="JUnit.RoverTest">
+    <configuration default="false" name="net.torchz.mars.test in Marsrovers" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.torchz.mars.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Marsrovers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.torchz.mars.test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.torchz.mars.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Marsrovers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.torchz.mars.test" />
+      <option name="MAIN_CLASS_NAME" value="net.torchz.mars.test.RoverTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.testMove" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.torchz.mars.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Marsrovers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.torchz.mars.test" />
+      <option name="MAIN_CLASS_NAME" value="net.torchz.mars.test.RoverTest" />
+      <option name="METHOD_NAME" value="testMove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.testLeft" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.torchz.mars.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Marsrovers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.torchz.mars.test" />
+      <option name="MAIN_CLASS_NAME" value="net.torchz.mars.test.RoverTest" />
+      <option name="METHOD_NAME" value="testLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RoverTest.testRight" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.torchz.mars.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Marsrovers" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.torchz.mars.test" />
+      <option name="MAIN_CLASS_NAME" value="net.torchz.mars.test.RoverTest" />
+      <option name="METHOD_NAME" value="testRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="C:\Users\tcz\Documents\GitHub\marsrover" />
-      <setting name="debug" value="false" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -457,9 +645,61 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="true" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -484,38 +724,15 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="net.torchz.mars.control.Navigator" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -527,9 +744,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Marsrovers" />
       <envs />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -547,9 +770,15 @@
       </option>
       <envs />
       <patterns />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="false" name="Navigator" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="net.torchz.mars.control.Navigator" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -571,9 +800,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Navigator" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.net.torchz.mars.test in Marsrovers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RoverTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RoverTest.testMove" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RoverTest.testLeft" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RoverTest.testRight" />
     </list>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="C:\Users\tcz\Documents\GitHub\marsrover" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -640,27 +883,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328" sideWeight="0.48089173" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796207" sideWeight="0.47863248" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974359" sideWeight="0.4745223" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328" sideWeight="0.513535" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796207" sideWeight="0.53899574" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.49695587" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.4936306" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4939117" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2611465" sideWeight="0.672" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.4593949" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26068377" sideWeight="0.6729858" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270142" sideWeight="0.45726496" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.4969651" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.4936306" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -687,6 +933,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -696,13 +943,8 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Navigator Added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -730,9 +972,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
@@ -742,16 +982,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/Marsrovers.iml">
@@ -769,65 +1005,86 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="18" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/PlateauTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="19" column="39" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/MoveCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/RightCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/command/LeftCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/RoverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="41" column="9" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/test/net/torchz/mars/test/DirectionTest.java">
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/control/Navigator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="18" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Coords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Plateau.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/util/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+        <state line="34" column="38" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="42" selection-start="965" selection-end="965" vertical-scroll-proportion="0.31062672">
+        <state line="28" column="12" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marsrovers/lib/src/net/torchz/mars/entity/Plateau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="55" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5139092">
           <folding />
         </state>
       </provider>
@@ -861,6 +1118,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>activesupport (v2.3.14, RVM: ree-1.8.7-2011.03 [end2end] (1)) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -872,7 +1130,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -888,8 +1146,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.5" />
+                <option value="0.16200466" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,6 +1,6 @@
 package net.torchz.mars.entity;
 
-import net.torchz.mars.util.Command;
+import net.torchz.mars.command.ICommand;
 import net.torchz.mars.util.Coords;
 import net.torchz.mars.util.Direction;
 
@@ -13,24 +13,23 @@ import net.torchz.mars.util.Direction;
  */
 public class Rover {
     Coords currentCoords;
+
     Direction currentDirection;
+
+    public void setCurrentDirection(Direction currentDirection) {
+        this.currentDirection = currentDirection;
+    }
 
     public Rover(Coords startCoords, Direction startDirection) {
         currentCoords = startCoords;
         currentDirection = startDirection;
     }
 
-    public void movement(Command command) {
-        if (command == Command.RIGHT) {
-            currentDirection.setDegree((currentDirection.getDegree() + 90) % 360);
-        } else if (command == Command.LEFT) {
-            currentDirection.setDegree((currentDirection.getDegree() + 270) % 360);
-        } else if (command == Command.MOVE) {
-            this.moveForward(1);
-        }
+    public void movement(ICommand command) {
+        command.execute(this);
     }
 
-    private void moveForward(int forward) {
+    public void moveForward(int forward) {
         switch (currentDirection.getDegree() % 360) {
             case 0:
                 currentCoords.setY(currentCoords.getY() + forward);
@@ -62,3 +61,4 @@ public class Rover {
                 this.currentCoords.getY() <= plateau.getCoords_top_right().getY();
     }
 }
+
